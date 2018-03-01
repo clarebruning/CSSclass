@@ -1,0 +1,75 @@
+header > img {
+
+    width: 100%;
+} 
+
+nav {
+    background-color: #144437;
+    color: gold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    z-index: 5000;
+}
+
+nav > img {
+    position: relative;
+    left: 1rem;
+    top:1rem;
+    width: 1rem;
+    height: 1rem;
+    float: left;
+}
+
+nav li, nav p {
+    list-style-type: none;
+    float: left; 
+}
+
+nav li a {
+    color: gold;
+    text-decoration: none;
+    margin-left: 4rem;
+    padding-top: 1rem;
+}
+
+nav p {
+    margin-left: 2rem;
+    font-weight: bold;
+} 
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2em;
+    margin: 2em;
+    
+}
+
+.paragraph {
+    grid-row: 1 / 3;
+    align-self: center;
+}
+
+.image2 {
+    grid-row-start: 2;
+}
+
+.lilimage {
+    grid-row-start: 2;
+    align-self: flex-end;
+}
+
+footer {
+    background-color: #144437;
+    color: gold;
+    
+    height: 2vw;
+    width: 100%;
+}
+
+footer p {
+    margin-left: 1rem;
+}

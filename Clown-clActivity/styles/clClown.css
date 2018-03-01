@@ -1,0 +1,288 @@
+
+/*  Keyframes for the ball moving.  */
+
+
+
+
+	
+/*  Put keyframes for the navigatin shadow here.----- */
+
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+body {
+	background-color: yellow;
+	font-family: sans-serif;
+}
+
+#page {
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+}
+nav {
+	height: 3rem;
+}
+
+nav ul {
+	padding-top: 1rem;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 3.5rem;
+	padding-right: 3rem;
+	
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 1.2rem;
+	color: darkseagreen;
+	transition-property: letter-spacing;
+	transition-duration: 1s;
+    
+}
+
+nav a:hover {
+    animation: shadow 2s;
+}
+
+@keyframes shadow {
+    from {
+        text-shadow: none;
+    }
+    to {
+        text-shadow: 2px 5px 5px rgba(200, 0, 0, 0.5);
+    }
+}
+
+
+nav a:hover {
+	color: #d00;
+	letter-spacing: 1px;
+
+}
+
+h2 {
+    margin-top: 4rem;
+	margin-left: 1rem;
+	font-size: 4em;
+	color: #dd0000;
+    transform: translateY(475%) rotate(-0.25turn);
+    transform-origin: left top;
+    
+}
+
+img#clown1 {
+	margin-top: -175px;
+	margin-left: 6rem;
+}
+
+#boxAnimate {
+	position: relative;
+	top: -800px;
+	left: 500px;
+	width: 700px;
+	height: 500px;
+	background-color: lightgoldenrodyellow;
+	box-shadow: inset 3px 3px 15px lightgray;
+	border: 2px solid lightgray;
+	overflow: hidden;
+}
+
+/*	  The ball  */
+#ball1 {
+	display: block;
+	width: 25px;
+	height: 25px;
+	background-color: #d00;
+	border-radius: 50%;
+	box-shadow: inset -5px -5px 5px rgba(10,0,0,.6), 15px 15px 2px rgba(10,0,0,.04);
+	position: absolute;
+	animation: moveX 2s linear 2s infinite alternate, 
+		moveY 3.6s linear 2s infinite alternate;
+}
+
+@-webkit-keyframes moveX {
+  from { left: 0; } to { left: 675px; }
+}
+@-moz-keyframes moveX {
+  from { left: 0; } to { left: 675px; }
+}
+@-o-keyframes moveX {
+  from { left: 0; } to { left: 675px; }
+}
+@keyframes moveX {
+  from { left: 0; } to { left: 675px; }
+}
+@-webkit-keyframes moveY {
+  from { top: 0; } to { top: 475px; }
+}
+@-moz-keyframes moveY {
+  from { top: 0; } to { top: 475px; }
+}
+@-o-keyframes moveY {
+  from { top: 0; } to { top: 475px; }
+}
+@keyframes moveY {
+  from { top: 0; } to { top: 475px; }
+}
+
+#ball2 {
+	display: block;
+	width: 25px;
+	height: 25px;
+	background-color: blue;
+	border-radius: 50%;
+	box-shadow: inset -5px -5px 5px rgba(10,0,0,.6), 15px 15px 2px rgba(10,0,0,.04);
+	position: absolute;
+    top: 475px;
+    left: 675px;
+	animation: moveX2 2.4s linear 2s infinite alternate, 
+		moveY2 3.6s linear 2s infinite alternate;
+}
+
+@-webkit-keyframes moveX2 {
+  from { left: 675px; } to { left: 0; }
+}
+@-moz-keyframes moveX2 {
+  from { left: 675px; } to { left: 0; }
+}
+@-o-keyframes moveX2 {
+  from { left: 675px; } to { left: 0; }
+}
+@keyframes moveX2 {
+  from { left: 675px; } to { left: 0; }
+}
+@-webkit-keyframes moveY2 {
+  from { top: 475px; } to { top: 0; }
+}
+@-moz-keyframes moveY2 {
+  from { top: 475px; } to { top: 0; }
+}
+@-o-keyframes moveY2 {
+  from { top: 475px; } to { top: 0; }
+}
+@keyframes moveY2 {
+  from { top: 475px; } to { top: 0; }
+}
+
+#ball3 {
+	display: block;
+	width: 25px;
+	height: 25px;
+	background-color: green;
+	border-radius: 50%;
+	box-shadow: inset -5px -5px 5px rgba(10,0,0,.6), 15px 15px 2px rgba(10,0,0,.04);
+	position: absolute;
+    top: 475px;
+    left: 0;
+	animation: moveX3 3s linear 2s infinite alternate, 
+		moveY3 2s linear 2s infinite alternate;
+}
+
+@-webkit-keyframes moveX3 {
+  from { left: 0; } to { left: 675px; }
+}
+@-moz-keyframes moveX3 {
+  from { left: 0; } to { left: 675px; }
+}
+@-o-keyframes moveX3 {
+  from { left: 0; } to { left: 675px; }
+}
+@keyframes moveX3 {
+  from { left: 0; } to { left: 675px; }
+}
+@-webkit-keyframes moveY3 {
+  from { top: 475px; } to { top: 0; }
+}
+@-moz-keyframes moveY3 {
+  from { top: 475px; } to { top: 0; }
+}
+@-o-keyframes moveY3 {
+  from { top: 475px; } to { top: 0; }
+}
+@keyframes moveY3 {
+  from { top: 475px; } to { top: 0; }
+}
+
+#ball4 {
+	display: block;
+	width: 25px;
+	height: 25px;
+	background-color: yellow;
+	border-radius: 50%;
+	box-shadow: inset -5px -5px 5px rgba(10,0,0,.6), 15px 15px 2px rgba(10,0,0,.04);
+	position: absolute;
+    top: 0;
+    left: 675px;
+	animation: moveX4 2.5s linear 2s infinite alternate, 
+		moveY4 3.3s linear 2s infinite alternate;
+}
+
+@-webkit-keyframes moveX4 {
+  from { left: 675px; } to { left: 0; }
+}
+@-moz-keyframes moveX4 {
+  from { left: 675px; } to { left: 0; }
+}
+@-o-keyframes moveX4 {
+  from { left: 675px; } to { left: 0; }
+}
+@keyframes moveX4 {
+  from { left: 675px; } to { left: 0; }
+}
+@-webkit-keyframes moveY4 {
+  from { top: 0; } to { top: 475px; }
+}
+@-webkit-keyframes moveY4 {
+  from { top: 0; } to { top: 475px; }
+}
+@-moz-keyframes moveY4 {
+  from { top: 0; } to { top: 475px; }
+}
+@-o-keyframes moveY4 {
+  from { top: 0; } to { top: 475px; }
+}
+@keyframes moveY4 {
+  from { top: 0; } to { top: 475px; }
+}
+
+
+
+
+/*  --------------------------------------   */
+
+#boxPic {
+	position: relative;
+    left: 60rem;
+    top: -1110px;
+	height: 350px;
+	width: 234px;
+	background-color: darkseagreen;
+    transform: translateY(21.8rem) rotate(-15deg);
+
+	
+}
+
+
+img#clown2 {
+	position: relative;
+	left: 60rem;
+	top: -1110px;
+	bottom: 30rem;
+	
+}
+
+footer {
+	position: relative;
+	width: 300px;
+	top: -1140px;
+	left: 10.5rem;
+	color: darkseagreen;
+	
+}

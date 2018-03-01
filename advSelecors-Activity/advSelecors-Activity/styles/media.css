@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (min-width: 1201px) and (max-width: 2000px) {
+	
+}
+
+@media screen and (max-width: 1200px) {
+	
+}
+
+@media screen and (max-width: 992px){
+	table {
+
+    margin-top: -27%;
+}
+}
+
+@media screen and (max-width: 768px){
+	nav p {
+
+    top: 1rem;
+    left: 2.5rem;
+    font-size: 2vw;
+}
+	article {
+    width: 90%;
+}
+	table {
+	width: 80%;
+		float: left;
+		clear: both;
+		margin-left: 10%;
+		margin-top: 0;
+		margin-bottom: 3%;
+    /*margin-top: -50%;*/
+}
+	
+	footer {
+		height: 3vw;
+	}
+	
+	#wrap {
+		width: 100%;
+		position: relative;
+	}
+	
+	#skipNav {
+		position: fixed;
+		left: 80%;
+   		top: 0.6rem;
+		height: 1.3rem;
+		font-size: 0.6rem;
+		width: 3.65em;
+		padding-top: 1em;
+		padding-left: 1em;
+		background-color: beige;
+		border-radius: 0.5rem;
+		z-index: 50000;
+	}
+	
+	#skipNav ul {
+		list-style: none;
+	}
+	
+	#skipNav li a {
+		text-decoration: none;
+		color: cadetblue;
+		display: block;
+		vertical-align: center;
+
+	}
+	nav ul {
+		display: none;
+		
+	}	
+	
+	#smallNav {
+		display: block;
+		width: 100%;
+
+	}
+	#smallNav li {
+		float: left;
+		margin-left: 5%;
+		list-style: none;
+		margin-bottom: 1rem;
+		width: 90%;
+		
+	}
+	
+	#smallNav li a {
+	background-color: cadetblue;
+	color: beige;
+    text-decoration: none;
+	text-align: center;
+	display: block;
+    font-size: 1rem;
+	padding: 5px;
+		
+	}
+}
+

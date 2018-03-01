@@ -1,0 +1,22 @@
+@page {
+    margin: 1in;
+}
+
+nav {
+    display: none;
+}
+
+header img {
+    width: 100%;
+}
+
+body {
+    background: white; 
+    color: black;
+    font-size: 12pt;
+    font-family: Georgia, ‘Times New Roman’, serif; 
+ } 
+
+table {
+    page-break-before: always;
+}

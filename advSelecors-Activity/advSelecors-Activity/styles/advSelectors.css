@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header > img {
+
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    background-color: cadetblue;
+    color: beige;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    z-index: 5000;
+}
+
+nav li, nav p, nav img {
+    list-style-type: none;
+    float: left;
+   
+}
+
+nav > img {
+    position: relative;
+    left: 2rem;
+    top: 0.4rem;
+}
+
+nav p {
+    color: oldlace;
+    position: relative;
+    top: 0.65rem;
+    left: 2.5rem;
+    font-size: 2vw;
+}
+
+nav li a {
+    color: beige;
+    text-decoration: none;
+    margin-left: 4rem;
+    padding-top: 1rem;
+    font-size: 1.3vw;
+}
+
+nav ul {
+    position: relative;
+    top: 1rem;
+    left: 5rem;
+}
+
+nav li a:hover {
+    color: khaki;
+}
+
+article {
+    width: 100%;
+    width: 50%;
+    float: left;
+    clear: left;
+    font-size: 1.5vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: lightgray solid 1px;
+    border-radius: 5px;
+    padding: 1%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+
+article > p {
+    padding: 1%;
+    font-size: 0.8rem;
+}
+
+article > h2 {
+    color: saddlebrown;
+    font-family: 'Times New Roman', serif;
+    padding: 1%;
+    font-size: 1.2rem;
+}
+
+article:first-of-type {
+    margin-top: 45%;
+}
+
+table {
+    float: right;
+    width: 35%;
+    margin-right: 5%;
+    margin-top: -18vw;
+    
+}
+
+/*First column: align the text to the left.
+o All other columns: align the text to the right.
+o Make sure there is proper spacing between the text and the edge of the cell.*/
+
+table > caption > h2 {
+    color: saddlebrown;
+    font-family: 'Times New Roman', serif;
+    margin-bottom: 5%;
+    font-size: 1.2rem;
+}
+
+th{
+    background-color: cadetblue;
+    color: beige;
+    height: 2.3vw;
+}
+
+td {
+    height: 1.8vw;
+}
+
+tr:nth-of-type(even) {
+    background-color: lightgoldenrodyellow;
+}
+
+td, th {
+    padding: 8px 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
+th:first-of-type, td:first-child {
+    text-align: left;
+}
+
+th:not(first-of-type), td:not(first-child) {
+    text-align: right;
+}
+
+tr:last-of-type>td {
+    border-bottom: lightgrey solid 1px;
+}
+
+#smallNav {
+	display: none;
+}
+
+footer {
+    background-color: cadetblue;
+    color: beige;
+    margin-top: 10vw;
+    clear:both;
+    height: 2vw;
+    width: 100%;
+}
+
+footer p {
+    margin-left: 2rem;
+}

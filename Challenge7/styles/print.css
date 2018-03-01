@@ -1,0 +1,27 @@
+@page {
+        margin: 1in;
+    }
+
+body {
+    width: 100%;
+    font-size: 12pt;
+    background-color: white;
+    color: black;
+    font-family: Georgia, ‘Times New Roman’, serif; 
+}
+
+nav{
+    display: none;
+}
+
+header img {
+    width: 100%;
+}
+
+a:link:after { 
+    content: " (" attr(href) ") "; 
+}
+
+footer {
+    page-break-before: always;
+}

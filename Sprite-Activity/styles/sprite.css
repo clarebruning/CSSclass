@@ -1,0 +1,81 @@
+@import url('normalize.css');
+
+/* blue = #0b5fae  or rgb(11, 95, 174)
+   light blue = #d4f4dc   or rgb(212, 244, 220) */
+
+	body {
+			background-color: powderblue;
+		}
+	
+	#wrap {
+		width: 90%;
+		max-width: 960px;
+		margin: 5px auto;
+		background-color: #fff;
+		font-size: 100%
+	}
+
+	header {
+		background-color: #0b5fae;
+		height: 125px;
+			
+	}
+	
+	h1 {
+		color: #fff;
+		padding-top: 35px;
+		padding-left: 1.875rem;
+	
+	}
+	
+	
+	section {
+		float: right;
+		width: 65%;
+		padding-right: 1.875rem;
+		padding-top: 10px;
+		margin-left: .625rem;
+
+	}
+	
+	
+	footer {
+		clear: both;
+		background-color: #0b5fae;
+	}
+	
+	footer h5 {
+		color: #fff;
+		padding: 10px 1.875rem;
+	}
+
+#nav {
+    list-style-type: none;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-top: 25px;
+    padding-left: 1.875rem;
+    
+}
+
+#nav li {
+    margin: 0;
+    padding-bottom: 5px;
+    text-indent: 50px;
+}
+
+#nav li a {
+    display: block;
+    width: 220px;
+    height: 37px;
+    text-decoration: none;
+    color: white;
+    line-height: 2em;
+    background: url(../image/Sprite.png) no-repeat left bottom;
+}
+
+#nav li a:hover {
+    background-position: right bottom;
+}
